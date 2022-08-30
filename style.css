@@ -1,0 +1,1539 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #55473D;
+    font-family: "Muller";
+    font-weight: 400;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    background-color:#F7F2EC;
+}
+header{
+    width: 100wh !important;
+    height: 100vh;
+    background:url(images/image%2052.png), url(images/Rectangle%2010.png);
+    background-size: cover, cover;
+    background-blend-mode:color-burn;
+}
+div.conteiner{
+    width: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
+
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    font-weight: 500;
+}
+header nav ul.nav a{
+     position: relative;
+}
+header nav ul.nav a:hover:after{
+    content: '';
+    position: absolute;
+    top: 3.8rem;
+    left: 0;
+    width: 100%;
+    height: .3rem;
+    background: #E96E36;
+}
+a.tel:hover{
+    color: #E96E36;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul.nav li{
+    margin: 4rem 8rem 11.5rem 0rem;
+
+}
+header nav ul.contact li{
+    margin: 4rem 0rem 11.5rem 3.2rem;
+}
+header nav ul li div.line{
+    width: 9rem;
+    height: .1rem;
+    background-color: white;
+}
+header nav ul li{
+    display: flex;
+    align-items: center;
+
+}
+header div.main{
+    display: flex;
+    height: 58rem;
+}
+header div.left{
+    width: 80%;
+}
+header div.left h1{
+    font-family: 'Nuosu SIL';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7.2rem;
+    color: #FAFAFA;
+    text-transform: uppercase;
+    margin: .6rem 0rem 4rem;
+    line-height: 8rem;
+    letter-spacing: -0.01em;
+    white-space: pre;
+}
+header div.left p{
+    white-space: pre;
+    margin: 0rem 0rem 9rem 25%;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #FAFAFA;
+}
+header div.left p.p2{
+    margin: 0;
+    font-size: 1.4rem;
+    color: #FED1A7;
+    margin-right: 5.3rem;
+    line-height: 2.4rem;
+}
+header div.left div.pline2{
+    display: flex;
+}
+div.line2{
+    width: 28.5rem;
+    height: .1rem;
+    background-color: white;
+    margin-top: 1.3rem;
+    background-color: #FED1A7;
+}
+header div.main div.img{
+    width: 44em;
+    background: url(images/image41.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+div.img img.logo, div.img img.zerno{
+    width: 45%;
+    position: absolute;
+    top: -14%;
+    left: -22%;
+}
+
+div.img img.zerno{
+    width: 20%;
+    position: absolute;
+    top: -6%;
+    left: -10%;
+    animation: rotate-circle 4.5s linear 0s normal none infinite running;
+}
+@keyframes rotate-circle{
+    0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+div.img img.logo{
+    animation: rotate-circle-reverse 6s linear 0s reverse none infinite running;
+}
+@keyframes rotate-circle-reverse{
+    0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+header div.main h1 span.color{
+    color: #FED1A7;
+    font-family: 'Nuosu SIL';
+    font-weight: 400;
+}
+section{
+    background-color:#F7F2EC;
+}
+section.three{
+    overflow: hidden;
+}
+section div.conteiner h2{
+    white-space: pre;
+    font-family: 'Nuosu SIL';
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 6.4rem;
+    line-height: 7.2rem;
+    letter-spacing: -0.01em;
+    padding: 16.3rem 0rem 6.4rem;
+}
+section .conteiner div.img2,section .conteiner div.img3{
+    width: 100%;
+    height: 42rem;
+    background: url(images/image55.png);
+    margin-bottom: 3.2rem;
+}
+section .conteiner p.none{
+    display: none;
+}
+section .conteiner .paragraf p, section .conteiner .paragraf2 p,section .conteiner p.none{
+    font-weight: 500;
+    font-size: 2.3rem;
+    line-height: 3.2rem;
+    opacity: 0.9;
+    white-space: pre;
+    font-weight: 500;
+}
+section .conteiner .paragraf,section .conteiner .paragraf2{
+    display: flex;
+    justify-content: space-between;
+}
+section .conteiner .paragraf{
+    margin-bottom: 12rem;
+}
+section .conteiner .paragraf p.size_small,section .conteiner .paragraf2 p.size_small{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+section div.conteiner h2.pad{
+    padding-top: 0rem;
+}
+section .conteiner div.img3{
+    background: url(images/img35.png);
+}
+section div.img4{
+    background-color: #F7F2EC;
+    width: 160%;
+    height: 22.5em;
+    border: .1rem solid #55473D;
+    display: flex;
+    white-space: nowrap;
+    transform: rotate(-2deg);
+    margin: 14.5rem 0rem 15.5rem;
+    position: relative;
+    right: 5rem;
+    overflow: hidden;
+}
+section div.img4 .card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    animation: line 5s linear infinite;
+}
+@keyframes line{
+    0%{
+        transform: translateX(10%)
+    }
+    100%{
+        transform: translateX(-90%)
+    }
+
+}
+section div.img4 p{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2.3rem;
+    line-height: 3.2rem;
+    width: 55%;
+    margin: 0rem 8rem;
+}
+section div.img4 .eliteCafe{
+    display: flex;
+    width: 45%;
+    justify-content: center;
+    position: relative;
+}
+section div.img4 .eliteCafe .coffe1{
+    width: 16.5rem;
+    height: 16.5rem;
+    animation: rotate-circle 5.5s linear 0s normal none infinite running;
+}
+section div.img4 .eliteCafe .coffe2{
+    width: 8.5rem;
+    position: absolute;
+    top: 24%;
+    left: 25%;
+    animation: rotate-circle-reverse 5.5s linear 0s reverse none infinite running;
+}
+section div.conteiner div.block h2{
+    padding: 0rem 0rem 1.2rem;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+section .conteiner div.cricle,section .conteiner span.cricle{
+    width: .5rem;
+    height: .5rem;
+    border: .15rem solid #E96E36;
+    border-radius: 50%;
+    margin-right: 1.6rem;
+}
+section .conteiner .block div.p4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+}
+section .conteiner .block .cofemashin{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 7.5rem 0rem 14.5rem;
+}
+section .conteiner .block .cofemashin .left,section .conteiner .block .cofemashin .right{
+    width: 25%;
+}
+section .conteiner .block .cofemashin .center {
+    width: 45%;
+    align-self: center;
+}
+section .conteiner .block .cofemashin h3{
+    font-weight: 500;
+    font-size: 2.3rem;
+    line-height: 3.2rem;
+    white-space: pre;
+    padding-bottom: 1.6rem;
+    opacity: 0.9;
+}
+section .conteiner .block .cofemashin p{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    opacity: 0.9;
+    white-space: pre;
+    margin-bottom: 4.8rem;
+}
+.btn{
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    text-align: center;
+    color: #FF6B3D;
+    border: .15rem solid #E96E36;
+    padding: 2.4rem 3.2rem;
+    background-color: #F7F2EC;
+}
+.btn span{
+    margin-left: .8rem;
+    color: #FF6B3D;
+}
+section .conteiner .cofemashin .center .cricle2{
+    width: 50rem;
+    height: 50rem;
+    border-radius: 50%;
+    background-color: #FED1A7;
+    position: relative;
+}
+section .conteiner .cofemashin .center .cricle2 img{
+    width: 85%;
+    position: absolute;
+    right: 1.7rem;
+    top: 4rem;
+    z-index: 2;
+}
+section .conteiner .cofemashin .center .cricle2 h4{
+    font-weight: 200;
+    font-size: 5.8rem;
+    letter-spacing: -0.01em;
+    white-space: pre;
+    position: absolute;
+    right: -14%;
+    top: .5rem;
+    line-height: 3.2rem;
+}
+section .conteiner .cofemashin .center .cricle2 span.hh4{
+    font-weight: 400;
+    font-size: 2.3rem;
+}
+section .conteiner .block .cofemashin .right ul li{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin: .8rem 0rem;
+
+}
+section .block div.free_tasting div.free_h1 h2{
+    display: block;
+    width: 40%;
+    margin-bottom: 6.4rem;
+    padding: 0;
+}
+section .block div.free_tasting div.free_h1 img{
+    width: 60%;
+    z-index: 5;
+}
+section .block div.free_tasting div.free_h1{
+    display: flex;
+    align-items: flex-end;
+    border-bottom: .1rem solid #55473D;
+    margin-bottom: 3rem;
+}
+section .block .free_tasting .tasting_text{
+   display: flex;
+    justify-content: space-between
+}
+section .block div.free_tasting .tasting_text li{
+    white-space: pre;
+    display: flex;
+}
+section .block .free_tasting .tasting_text .p_left{
+    width: 40%;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+}
+section .block .free_tasting .tasting_text .p_center{
+    width: 38%;
+    font-weight: 500;
+    font-size: 2.3rem;
+    line-height: 3.2rem;
+    opacity: 0.9;
+}
+section .block .free_tasting .tasting_text .p_right{
+    width: 22%;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+section .block .free_tasting .tasting_text span.cricle{
+    margin-top: .6rem;
+}
+section .block .free_tasting{
+    margin-bottom: 9rem;
+}
+
+section .conteiner .block .installation_repair {
+    display: flex;
+    margin-bottom: 14rem;
+}
+section .conteiner .block .installation_repair img{
+    width: 50%;
+    border-radius: 50% 50% 0% 50%;
+    margin-right: 5.5rem;
+}
+section .conteiner .block .installation_repair .h_txt{
+    width: 50%;
+}
+section .conteiner .block .installation_repair .h_txt h2{
+    display: block;
+    padding-bottom: 3.2rem;
+}
+section .conteiner .block .installation_repair .h_txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section .installation_repair .h_txt div.postscript{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+}
+section .installation_repair .h_txt p{
+    font-weight: 500;
+    font-size: 2.3rem;
+    line-height: 3.2rem;
+    opacity: 0.9;
+    white-space: pre;
+    margin-top: 1.2rem;
+}
+section .conteiner .block .manager .h_txt{
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 1px solid #55473D;
+    margin-bottom: 3.2rem;
+}
+section .conteiner .block .manager .h_txt h2{
+    width: 45%;
+    display: block;
+    padding-bottom: 6.4rem;
+}
+section .conteiner .block .manager .h_txt img{
+    width: 55%;
+}
+section .conteiner .block .manager .postscript2{
+    display: flex;
+    margin-bottom: 16.7rem;
+}
+section .conteiner .block .manager .postscript2 p, section .conteiner .catolog_coffe .catalog_txt li{
+    white-space: pre;
+}
+section .conteiner .block .manager .postscript2 p.l{
+    width: 45%;
+    font-weight: 500;
+    font-size: 2.3rem;
+    line-height: 3.2rem;
+    opacity: 0.9;
+}
+section .conteiner .block .manager .postscript2 p.r{
+    width: 55%;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+section div.all_display{
+    background: url(images/Frame%2038.jpg);
+    background-position: center center;
+    background-size: cover !important;
+    width: 100%;
+    height: 53rem;
+    background-size: contain;
+    margin-bottom: 16rem;
+    background-repeat: no-repeat;
+}
+section .conteiner .catolog_coffe h2{
+    padding: 0rem 0rem 7.4rem;
+}
+section .conteiner .catolog_coffe .catalog_txt{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3.2rem;
+    border-bottom: .1rem solid #55473D;
+    margin-bottom: 14rem;
+}
+section .conteiner .catolog_coffe .catalog_txt li.one{
+    width: 40%;
+    font-weight: 500;
+    font-size: 2.3rem;
+    line-height: 3.2rem;
+    opacity: 0.9;
+}
+section .conteiner .catolog_coffe .catalog_txt li.one span{
+    background-color: #55473D;
+    color: #ECE7E1;
+}
+section .conteiner .catolog_coffe .catalog_txt li.two{
+    width: 30%;
+}
+section .conteiner .catolog_coffe .catalog_txt li.two .cricle, section .conteiner .catolog_coffe .catalog_txt li.three .cricle{
+    margin-top: 2%;
+}
+section .conteiner .catolog_coffe .catalog_txt li.three{
+    width: 24%;
+}
+section .conteiner .catolog_coffe .catalog_txt li.two,section .conteiner .catolog_coffe .catalog_txt li.three{
+    display: flex;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    opacity: 0.9;
+}
+section .conteiner .catalog .n1, section .conteiner .catalog .n2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8rem;
+}
+section .conteiner .catalog .n1 img,section .conteiner .catalog .n2 img{
+    width: 25%;
+}
+section .conteiner .catalog .n1 .description,section .conteiner .catalog .n2 .description{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 6.2rem;
+    box-sizing: border-box;
+}
+section .conteiner .catalog .n2 .description{
+    padding: 0rem 6.2rem 0rem 0rem;
+}
+section .conteiner .catalog .n1 .description h3,section .conteiner .catalog .n2 .description h3{
+    font-weight: 500;
+    font-size: 2.3rem;
+    line-height: 3.2rem;
+    color: #64584E;
+    opacity: 0.9;
+    margin-bottom: 1.6rem;
+}
+section .conteiner .catalog .n1 .description p,section .conteiner .catalog .n2 .description p{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #64584E;
+    opacity: 0.9;
+    margin-bottom: 2.4rem;
+    white-space: pre;
+}
+.btn2{
+    padding: 2.4rem 3.2rem;
+    border: .15rem solid #E96E36;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    background-color: #E96E36;
+    color: #ECE7E1;
+}
+.btn2 span{
+    margin-left: .8rem;
+    color: #ECE7E1;
+}
+section .conteiner .catalog div.n2:last-child{
+    margin-bottom: 16rem;
+}
+section div.all_display2{
+    background: url(images/Frame%2044.jpg);
+    background-size: cover !important;
+    width: 100%;
+    height: 53rem;
+    background-repeat: no-repeat;
+    margin-bottom: 16rem;
+    background-blend-mode:color-burn;
+}
+section div.all_display2 .conteiner h2{
+    color: #FED1A7;
+    padding: 0rem 0rem 2.4rem;
+}
+section div.all_display2 .conteiner p{
+    white-space: pre;
+    font-weight: 400;
+    font-size: 2.3rem;
+    line-height: 3.2rem;
+    color: #ECE7E1;
+    opacity: 0.9;
+    margin-bottom: 4rem;
+}
+section div.all_display2 .conteiner .left_txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100wh;
+    height: 53rem;
+}
+section .conteiner .text_company p.subtitle{
+    font-weight: 500;
+    font-size: 2.3rem;
+    line-height: 3.2rem;
+    opacity: 0.9;
+    padding-bottom: 1.6rem;
+    white-space: pre;
+}
+section .conteiner .text_company p.subtitle2{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #64584E;
+    opacity: 0.9;
+    white-space: pre;
+}
+section .conteiner .text_company h2{
+    padding: 0rem 0rem 3.2rem;
+}
+section .conteiner .right_pos{
+    display: flex;
+    margin-bottom: 13.6rem;
+}
+section .conteiner .right_pos .none{
+    flex: 1;
+}
+section .conteiner .text_company{
+    width: 50%
+}
+section .conteiner .sub_txt{
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+section div.partners{
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    left: -4rem;
+    width: 120%;
+    height: 14.5rem;
+    margin:2.4rem 0rem 3.2rem;
+}
+section div.partners span{
+    font-family: 'Nuosu SIL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6.4rem;
+    line-height: 7.2rem;
+    letter-spacing: -0.01em;
+    animation: line2 4s linear infinite;
+}
+section div.partners span p{
+    white-space: nowrap;
+}
+section div.partners span p.lef{
+animation: linee 7s linear alternate infinite;
+}
+section div.partners span p.rig{
+animation: linee 7s linear alternate-reverse infinite;
+}
+@keyframes linee{
+    0%{
+        transform: translateX(5%)
+    }
+    100%{
+        transform: translateX(-15%)
+    }
+}
+
+footer{
+    border-top: 1px solid #55473D;
+}
+footer nav{
+    display: flex;
+    justify-content: space-between;
+}
+footer nav li img{
+    width: 100%;
+}
+footer nav ul.one{
+    width: 10%;
+    position: relative;
+    right: 3.2rem;
+}
+footer nav ul.two li,footer nav ul.three li{
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+footer nav ul.two{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    padding-left: 4.8rem;
+    box-sizing: border-box;
+}
+footer nav ul.two li{
+    padding-right: 6rem;
+    box-sizing: border-box;
+}
+footer nav ul.three{
+    width: 31%;
+    padding:0rem 16.8rem 0rem 8rem;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+footer nav li a{
+    color: #55473D;
+}
+footer nav ul.four{
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+footer nav ul.four li{
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #4D4D4D;
+}
+footer nav ul.four li.underline{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    text-decoration: underline;
+    color: #1F1F1F;
+    margin-top: .4rem;
+}
+.btn:hover{
+    background-color: #E96E36;
+    color: #ECE7E1;
+}
+.btn2:hover{
+    color: #FF6B3D;
+    background:transparent;
+    background-size: cover, cover;
+    background-blend-mode:color-burn;
+}
+.btn:hover span{
+    color: #ECE7E1;
+}
+.btn2:hover span{
+    color: #FF6B3D;
+}
+header nav ul.menu_burger,header .main .left .adaptiv,div.catalog .n1 h3.nonediv.catalog .n2 h3.none,section .conteiner .catalog .n1 img.none, section .conteiner .catalog .n2 img.none,header div.main div.left a, section .conteiner .catolog_coffe .catalog_txt li.four, h3.none
+{
+    display: none;
+}
+
+
+@media (max-width:1279px) and (min-width: 1000px){
+    html{
+        font-size: 50%;
+    }
+}
+@media (max-width:999px) and (min-width:320px){
+    html{
+        font-size: 62.5%;
+    }
+    header nav ul.menu_burger{
+        display: flex;
+        justify-content: flex-end;
+    }
+    header nav ul.menu_burger li{
+        margin-left: 2.4rem;
+    }
+    div.conteiner{
+        max-width: none;
+        padding: 5rem;
+        margin: 0;
+        width: auto;
+    }
+    header nav{
+        justify-content: flex-end;
+        margin-bottom: 40.3rem;
+    }
+    header div.main div.img {
+        background: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    header div.main div.left{
+        width: 100%;
+        text-align:center;
+        margin-top: 5rem;
+    }
+    header div.main div.left h1{
+        white-space: normal;
+        margin-bottom: 2rem;
+    }
+
+    header div.main div.img img{
+        position: static;
+    }
+    header div.main div.img img.zerno{
+        width: 10%;
+        position: absolute;
+        left: 45%;
+        top: 26%;
+    }
+    header div.main div.img img.logo{
+        width: 20%
+    }
+    header div.main{
+        flex-direction: column-reverse;
+    }
+    header, div.main{
+        height: auto;
+    }
+    header .main .left .adaptiv{
+    display: block;
+    }
+    header div.left p{
+        margin: 0px;
+    }
+    header div.left div.pline2{
+        flex-direction: column-reverse;
+        margin-bottom: 14rem;
+    }
+    header div.main div.left a{
+        width: auto;
+        display: block;
+    }
+    div.line2{
+        width: 100%;
+        margin: 3.2rem 0rem;
+    }
+    header div.left p.p2{
+        margin: 0;
+        white-space: normal;
+    }
+    section div.img4 .card{
+        font-size: 6rem;
+    }
+    section .conteiner p.none{
+        display: block;
+        margin-bottom: 3.2rem;
+    }
+    section .conteiner .paragraf p.no_none,section .conteiner .paragraf2 p.no_none,header .main .left h1,header nav ul.nav, header nav ul.contact,section .conteiner .catolog_coffe .catalog_txt li .cricle,section .conteiner .catalog .n1 .description h3, section .conteiner .catalog .n2 .description h3,section .conteiner .catalog .n1 img, section .conteiner .catalog .n2 img,section .conteiner .catolog_coffe .catalog_txt li.two,section .conteiner .catolog_coffe .catalog_txt li.three,section .conteiner .right_pos .none{
+        display: none;
+    }
+    section div.conteiner h2 {
+        padding: 10rem 0rem 4.4rem;
+    }
+    section .conteiner .paragraf p,section .conteiner p.none,section .conteiner .paragraf2 p{
+        white-space: normal;
+    }
+    section div.img4 {
+        width: 214%;
+        height: 19.5em;
+        margin: 8.5rem 0rem 9.5rem;
+    }
+    section .conteiner .block .cofemashin {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 7.5rem 0rem 14.5rem;
+}
+    section .conteiner .block .cofemashin .left{
+        text-align: center;
+        order: 2;
+        z-index: 3;
+        margin: 5rem 0rem;
+        width: 100%;
+    }
+    section .conteiner .block .cofemashin .center{
+        order: 1;
+        margin-bottom: 3rem;
+        width: auto;
+    }
+    section .conteiner .block .cofemashin .right{
+        order: 3;
+        z-index: 4;
+        margin: 6rem 0rem -2.5rem;
+        width: 100%;
+    }
+    section .conteiner .block .cofemashin .right ul li{
+        text-transform: uppercase;
+        font-size: 3rem;
+        line-height: 6.4rem;
+        border-bottom: 1px solid black;
+    }
+    section .block div.free_tasting div.free_h1{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        border-bottom: none;
+    }
+    section .block div.free_tasting div.free_h1 img{
+        width: 100%;
+    }
+    section .block div.free_tasting div.free_h1 h2{
+        width: auto;
+        margin: 3.2rem 0rem 0rem;
+    }
+    section .block .free_tasting .tasting_text{
+        flex-direction: column;
+    }
+    section .block .free_tasting .tasting_text .p_left,section .block .free_tasting .tasting_text .p_center,section .block .free_tasting .tasting_text .p_right{
+        width: 100%;
+        white-space: normal;
+    }
+    section .block .free_tasting .tasting_text .p_center{
+        margin: 1.5rem 0rem 1.1rem;
+
+    }
+    section div.conteiner h2{
+        white-space: normal;
+    }
+    section .conteiner .block .installation_repair{
+        flex-direction: column;
+        margin-bottom: 9rem;
+    }
+    section .conteiner .block .installation_repair img{
+        width: 65%;
+        border-radius: 50% 50% 50% 0%;
+    }
+    section .conteiner .block .installation_repair .h_txt{
+        width: 100%;
+    }
+    section .conteiner .block .installation_repair .h_txt h2{
+        margin-top: 4rem;
+    }
+    section .installation_repair .h_txt p{
+        white-space: normal;
+    }
+    section .conteiner .block .manager .h_txt{
+        flex-direction: column;
+        border-bottom: none;
+    }
+    section .conteiner .block .manager .h_txt img {
+        width: 100%;
+        order: 1;
+    }
+    section .conteiner .block .manager .h_txt h2{
+        width: 100%;
+        order: 2;
+        padding: 4rem 0rem 0rem;
+    }
+    section .conteiner .block .manager .postscript2{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    section .conteiner .block .manager .postscript2 p.l,section .conteiner .block .manager .postscript2 p.r{
+        width: 100%;
+        white-space: normal;
+    }
+    section .conteiner .block .manager .postscript2 p.l{
+        margin-bottom: 1.2rem;
+    }
+
+    section div.all_display{
+        margin: 7rem 5rem 2rem;
+        width: auto;
+    }
+    section .conteiner .catolog_coffe .catalog_txt li.four{
+        display: block;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        opacity: 0.9;
+        white-space: normal;
+        margin-top:2rem;
+    }
+    section div.conteiner div.block h2#arenda{
+        white-space: pre;
+    }
+    h3.none{
+        display: block;
+    }
+    section .conteiner .catolog_coffe h2 {
+    padding: 0rem 0rem 3.4rem;
+    }
+    section .conteiner .catolog_coffe .catalog_txt{
+        flex-direction: column;
+    }
+    section .conteiner .catolog_coffe .catalog_txt li.one,section .conteiner .catolog_coffe .catalog_txt li.two,section .conteiner .catolog_coffe .catalog_txt li.three{
+        white-space: normal;
+        width:100%;
+    }
+    section .conteiner .catolog_coffe .catalog_txt li.two{
+        margin-top: 2rem;
+    }
+    section .conteiner .catalog .n1, section .conteiner .catalog .n2{
+        flex-direction: column;
+        margin-top: -6rem;
+        margin-bottom: 20rem;
+    }
+    section .conteiner .catalog .n1 h3, section .conteiner .catalog .n2 h3{
+    font-weight: 400;
+    font-size: 3.2rem;
+    margin-bottom: 1.6rem;
+    line-height: 4rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    }
+    section .conteiner .catalog .n1 img.none, section .conteiner .catalog .n2 img.none
+    {
+        display: block;
+        width: 60%;
+        max-width: 40rem;
+    }
+    section .conteiner .catalog .n1 .description, section .conteiner .catalog .n2 .description {
+     width: 100%;
+     flex-direction: column;
+     align-items: center;
+     padding: 0;
+     text-align: center;
+
+    }
+    section .conteiner .catalog .n1 .description .btn, section .conteiner .catalog .n2 .description .btn{
+        align-self: stretch;
+        background-color: #E96E36;
+        color: #ECE7E1;
+    }
+     section .conteiner .catalog .n1 .description .btn span, section .conteiner .catalog .n2 .description .btn span{
+         color: #ECE7E1;
+    }
+    section .conteiner .catalog .n1 .description .btn:hover,section .conteiner .catalog .n2 .description .btn:hover{
+        background-color: transparent;
+        color: #E96E36;
+    }
+    section .conteiner .catalog .n1 .description .btn:hover span, section .conteiner .catalog .n2 .description .btn:hover span{
+         color:#E96E36;
+    }
+    section .conteiner .catalog .n1 .description p, section .conteiner .catalog .n2 .description p {
+    margin:1.2rem 0rem 2.4rem;
+    }
+    section .conteiner .catalog .n2{
+        flex-direction: column-reverse;
+    }
+    section div.all_display2{
+        margin-bottom: 8rem;
+
+    }
+    section .conteiner .catalog div.n2:last-child {
+    margin-bottom: 11rem;
+    }
+    section .conteiner .text_company{
+        width: 100%;
+    }
+    section .conteiner .text_company p.subtitle2{
+        border-bottom: 1px solid #55473D;
+        padding-bottom: 5rem;
+    }
+    section .conteiner .right_pos {
+    margin-bottom: 1.6rem;
+    }
+    section div.partners span,section div.partners span p.lef,section div.partners span p.rig{
+        animation: none;
+        font-size: 5rem;
+    }
+    section div.partners{
+        position: static;
+        width: 100%;
+        overflow: auto;
+        height: auto;
+        margin-bottom: 0;
+    }
+    section div.partners span p {
+     white-space: normal;
+        margin: 0rem 5rem;
+    }
+    footer nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer nav ul.one {
+        width: 30%;
+        position: static;
+    }
+
+    footer{
+        border: none;
+        margin-bottom: -3rem;
+    }
+    footer nav ul.two{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    footer nav ul.two li{
+        padding: 0rem 0rem 1.5rem;
+    }
+    footer nav ul li a{
+        font-size: 1.8rem;
+    }
+    footer nav ul.three{
+        width: 100%;
+        padding: 2rem 0rem 4rem;
+        justify-content: center;
+        border-bottom: 1px solid #55473D;
+    }
+    footer nav ul.four{
+        width: 100%;
+        align-items: center;
+        padding-top: 1.5rem;
+    }
+    section div.all_display2 .conteiner .left_txt h2{
+        white-space: pre;
+    }
+    section div.all_display2 div.conteiner{
+        padding: 0rem 5rem;
+    }
+    section .conteiner .block .cofemashin h3{
+        width: 100%;
+        white-space: normal;
+    }
+    section .conteiner .block .cofemashin .left{
+        display: flex;
+        flex-direction: column;
+        margin: 5rem 0rem 2rem;
+    }
+    section .conteiner .block .cofemashin p{
+        white-space: normal;
+        width: 80%;
+        margin: 0rem auto 4rem;
+    }
+    section .conteiner .catalog .n1 .description p, section .conteiner .catalog .n2 .description p{
+        width: 50%;
+        white-space: normal;
+    }
+    section div.img4 .eliteCafe .coffe1{
+    width: 14.5rem;
+    height: 14.5rem;
+    }
+    section div.img4 .eliteCafe .coffe2{
+    width: 7.5rem;
+    }
+}
+@media (max-width:768px) and (min-width:479px){
+    html{
+        font-size: 50%;
+    }
+    header div.left div.pline2 {
+    margin-bottom: 10rem;
+    }
+    section .conteiner .block .installation_repair img{
+        width: 100%;
+    }
+    header div.main div.img img.zerno {
+    width: 14%;
+    left: 43.2%;
+    top: 26%;
+    }
+    header div.main div.img img.logo {
+    width: 26%;
+    }
+    section .conteiner div.img2, section .conteiner div.img3 {
+
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    section .conteiner .text_company p.subtitle,section .conteiner .text_company p.subtitle2{
+        white-space: normal;
+    }
+}
+@media (max-width:480px) and (min-width:320px){
+    html{
+        font-size: 62.5%;
+    }
+    header .main .left .adaptiv{
+        font-size: 3.2rem;
+        line-height: 4rem;
+        letter-spacing: -0.04em;
+    }
+    header nav ul.menu_burger li img{
+        width: 4rem;
+        height: 4rem;
+    }
+    header nav {
+    margin-bottom: 6.3rem;
+    }
+    header div.main div.img img.logo {
+    width: 31%;
+    }
+    header div.main div.img img.zerno {
+    width: 16%;
+    left: 42.3%;
+    top: 27%;
+    }
+    header div.left p{
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        white-space: normal;
+    }
+    div.line2 {
+        margin: 2rem 0rem;
+    }
+    header div.left p.p2{
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+    }
+    header div.left div.pline2 {
+        margin-bottom: 5rem;
+    }
+    div.conteiner {
+        padding: 2rem 2rem 5rem;
+    }
+    .btn2, .btn{
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+    }
+    section div.conteiner h2{
+        font-size: 3rem;
+        line-height: 4rem;
+        letter-spacing: -0.04em;
+        padding: 5rem 0rem 1.5rem;
+    }
+    section .conteiner p.none{
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        margin-bottom: 2.5rem;
+    }
+    section .conteiner div.img2, section .conteiner div.img3{
+        background-size: cover;
+        height: 20rem;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-bottom: 1.5rem;
+    }
+    section .conteiner .paragraf p.size_small, section .conteiner .paragraf2 p.size_small{
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+    section .conteiner .paragraf {
+        margin-bottom: 4rem;
+    }
+    section div.img4 {
+    height: 14.5em;
+    margin: 1.5rem 0rem 4.5rem;
+    }
+    section div.img4 p {
+        font-size: 1.6rem;
+        margin: 0rem 4rem;
+    }
+    section div.img4 .eliteCafe .coffe1 {
+        width: 10.5rem;
+        height: 10.5rem;
+    }
+    section div.img4 .eliteCafe .coffe2 {
+        width: 5.5rem;
+    }
+    section .conteiner .block div.p4{
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        width: 60%;
+        margin: 0 auto;
+        align-items: flex-start;
+    }
+    section .conteiner div.p4 div.cricle{
+        width: 1rem;
+        height: 0.5rem;
+        margin-top: 0.3rem;
+    }
+    section div.conteiner div.block h2{
+        padding-bottom: 1.5rem;
+    }
+    section .conteiner .block .cofemashin {
+        margin: 3.6rem 0rem 10rem;
+    }
+    section .conteiner .cofemashin .center .cricle2 {
+        width: 30rem;
+        height: 30rem;
+    }
+    section .conteiner .cofemashin .center .cricle2 img {
+        width: 75%;
+        right: 2.7rem;
+        top: 4.5rem;
+    }
+    section .conteiner .cofemashin .center .cricle2 h4{
+        font-size: 2.5rem;
+        line-height: 2rem;
+        letter-spacing: -0.04em;
+        right: 3%;
+    }
+    section .conteiner .cofemashin .center .cricle2 span.hh4{
+        font-size: 1.4rem;
+        line-height: 2rem;
+        letter-spacing: -0.04em;
+    }
+    section .conteiner .block .cofemashin .center {
+        margin-bottom: 3.4rem;
+    }
+    section .conteiner .block .cofemashin .left{
+        margin: 0;
+    }
+    section .conteiner .block .cofemashin h3 {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        padding-bottom: 1.5rem;
+    }
+    section .conteiner .block .cofemashin p {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        margin-bottom: 2rem;
+    }
+    section .conteiner .block .cofemashin .right {
+        margin: 4rem 0rem -2.5rem;
+    }
+    section .conteiner .block .cofemashin .right ul li{
+        line-height: 4rem;
+        letter-spacing: -0.04em;
+    }
+    section .block div.free_tasting div.free_h1 h2 {
+        margin: 1.5rem 0rem 0rem;
+        font-size: 3rem;
+        line-height: 4rem;
+        letter-spacing: -0.04em;
+        font-weight: 500;
+    }
+    section .block div.free_tasting div.free_h1{
+        margin-bottom: 1.5rem;
+    }
+    section .block .free_tasting .tasting_text .p_left {
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 1.6rem;
+    }
+    section .block .free_tasting .tasting_text span.cricle{
+        margin-top: 0.3rem;
+    }
+    section .block .free_tasting .tasting_text .p_center {
+        margin: 2rem 0rem 1rem;
+    }
+    section .block .free_tasting {
+        margin-bottom: 4rem;
+    }
+    section .conteiner .block .installation_repair img {
+        width: 100%;
+    }
+    section .conteiner .block .installation_repair .h_txt h2 {
+        margin-top: 2.5rem;
+        padding-bottom: 1.5rem;
+    }
+    section .installation_repair .h_txt div.postscript {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    }
+    section .installation_repair .h_txt div.postscript div.cricle{
+        margin-bottom: 0.2rem;
+    }
+    section .installation_repair .h_txt p {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        margin-top: 2rem;
+    }
+    section .conteiner .block .installation_repair {
+        margin-bottom: 4rem;
+    }
+    section .conteiner .block .manager .h_txt h2 {
+        padding: 2.5rem 0rem 0rem;
+    }
+    section .conteiner .block .manager .h_txt{
+        margin-bottom: 1.5rem;
+    }
+    section .conteiner .block .manager .postscript2 p.l {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+    section .conteiner .block .manager .postscript2 p.r {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+    section div.all_display {
+        margin: 0rem 2rem 0.5rem;
+        height: 45rem;
+    }
+    section .conteiner .catolog_coffe .catalog_txt li.one {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+    section .conteiner .catolog_coffe h2 {
+        padding: 0rem 0rem 1.5rem;
+    }
+    section .conteiner .catolog_coffe .catalog_txt li.four {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+    section .conteiner .catolog_coffe .catalog_txt{
+        padding-bottom: 4rem;
+        margin-bottom: 7.5rem;
+    }
+    section .conteiner .catalog .n1 h3, section .conteiner .catalog .n2 h3,section .conteiner .catalog .n1 h3.none, section .conteiner .catalog .n2 h3.none{
+        font-size: 3rem;
+        padding-top: 1.5rem;
+    }
+    section .conteiner .catalog .n1 img.none, section .conteiner .catalog .n2 img.none {
+        width: 100%;
+    }
+    section .conteiner .catalog .n1 .description p, section .conteiner .catalog .n2 .description p {
+        margin: 1.5rem 0rem 2rem;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+    section .conteiner .catalog .n1 .description p, section .conteiner .catalog .n2 .description p{
+        width: 100%;
+    }
+    section .conteiner .catalog .n1, section .conteiner .catalog .n2{
+        margin-bottom: 11rem;
+    }
+    section .conteiner .catalog .n1, section .conteiner .catalog .n2{
+        border-top: 1px solid #55473D;
+    }
+    section .conteiner .catalog .n1:first-child{
+        border-top:none;
+    }
+    section .conteiner .catalog div.n2:last-child {
+        margin-bottom: 3rem;
+    }
+    section div.all_display2{
+        background: url(images/Group%203041.png),url(images/image%2052.png), url(images/Rectangle%2010.png);
+        background-repeat: no-repeat;
+        position: relative;
+        margin-bottom: 3rem;
+        background-size: 110% 50%, cover, cover !important;
+        background-blend-mode: normal,color-burn;
+        background-position: bottom;
+        height: 56rem;
+    }
+    section div.all_display2 .conteiner .left_txt{
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 6.6rem;
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+    section div.all_display2 .conteiner p {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        margin-bottom: 4rem;
+        white-space: normal;
+    }
+    section div.all_display2 .conteiner .left_txt .btn2{
+        position: absolute;
+        bottom: 2.1rem;
+        width: 58%;
+    }
+    section .conteiner .text_company h2 {
+        padding: 0rem 0rem 1.5rem;
+    }
+    section .conteiner .text_company p.subtitle{
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        white-space: normal;
+        padding-bottom: 2rem;
+    }
+    section .conteiner .text_company p.subtitle2{
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        white-space: normal;
+        padding-bottom: 4rem;
+    }
+    section .conteiner .right_pos {
+        margin-bottom: 1.5rem;
+    }
+    section .conteiner div.sub_txt div.cricle {
+        width: 1rem;
+        height: 0.5rem;
+        margin-top: 0.6rem;
+    }
+    section .conteiner .sub_txt{
+        align-items: flex-start;
+    }
+    section div.partners{
+        margin: 0;
+    }
+    section div.partners span, section div.partners span p.lef, section div.partners span p.rig{
+        font-size: 3rem;
+        line-height: 4rem;
+        letter-spacing: -0.04em;
+    }
+    section.three {
+        margin: -2.5rem 0rem 2rem;;
+    }
+    section div.partners span p{
+        margin: 0rem 2rem;
+    }
+    footer nav ul.one {
+        width: 70%;
+        margin-bottom: 1.5rem;
+    }
+    footer nav ul.two li, footer nav ul.three li {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+    footer nav ul.three {
+        padding: 1.5rem 0rem 4rem;
+    }
+    section .block .free_tasting .tasting_text .p_center {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+}
+@media (max-width:380px) and (min-width:320px){
+    section div.all_display2{
+        background-size: 130% 50%,cover,cover !important;
+    }
+}
+
+
